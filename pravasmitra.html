@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PravasMitra | Ashish Sarda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">AS</div>
+                <div class="sidebar-name">Ashish Sarda</div>
+                <div class="sidebar-role">Final-year B.tech(ECE) Student</div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="sidebar-link"><i class="fa-regular fa-user"></i> About</a>
+                <a href="projects.html" class="sidebar-link active"><i class="fa-solid fa-rocket"></i> Projects</a>
+                <a href="skills.html" class="sidebar-link"><i class="fa-regular fa-user"></i> Skills</a>
+                <a href="experience.html" class="sidebar-link"><i class="fa-regular fa-clock"></i> Experience</a>
+               <!--<a href="#blogs" class="sidebar-link"><i class="fa-solid fa-pen"></i> Blogs</a>-->
+                <a href="contact.html" class="sidebar-link"><i class="fa-regular fa-envelope"></i> Contact</a>
+            </nav>
+
+
+            <div class="sidebar-connect">
+                <div class="sidebar-connect-title">Connect</div>
+                <a class="connect-link" href="https://www.linkedin.com/in/ashish-sarda-5051982a3/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a class="connect-link" href="mailto:aashishsarda@rediffmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+                <a class="connect-link" href="tel:+919156620195"><i class="fa-solid fa-phone"></i> Phone</a>
+                <a class="connect-link" href="#contact"><i class="fa-solid fa-location-dot"></i> India</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Project Hero -->
+            <section class="hero">
+                <div class="hero-inner fade-in">
+                    <a href="index.html#projects" class="back-link" style="display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: 14px; margin-bottom: 20px;">
+                        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+                    </a>
+                    <h1 class="hero-heading">PravasMitra</h1>
+                    <div class="hero-subheading">
+                        <span>AI-Powered Real-Time Bus Tracking Application</span>
+                    </div>
+
+                    <div class="project-meta" style="display: flex; gap: 32px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Role</span>
+                            <span style="font-size: 15px; font-weight: 500;">Full-Stack Developer & IoT Engineer</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Timeline</span>
+                            <span style="font-size: 15px; font-weight: 500;">Completed</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Category</span>
+                            <span style="font-size: 15px; font-weight: 500;">IoT, Real-Time Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Content -->
+            <section class="section fade-in">
+                <h2 class="section-heading">Overview</h2>
+                <p class="hero-copy">
+                    PravasMitra is an AI-powered real-time bus tracking application that provides live location updates 
+                    to users, helping them track buses and plan their commutes more effectively. The system integrates 
+                    GPS technology with IoT hardware and cloud infrastructure to deliver seamless real-time tracking.
+                </p>
+                <p class="hero-copy">
+                    This project demonstrates end-to-end system design, from hardware integration to backend architecture 
+                    and user experience design. It solves a real-world problem faced by commuters who need reliable 
+                    information about bus locations and arrival times.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Problem Statement</h2>
+                <p class="hero-copy">
+                    Public transportation users often face uncertainty about bus locations and arrival times, leading to 
+                    long wait times and missed connections. Traditional tracking systems are either unreliable or require 
+                    expensive infrastructure. PravasMitra addresses this by providing an affordable, real-time tracking 
+                    solution using modern IoT and cloud technologies.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">My Role</h2>
+                <p class="hero-copy">
+                    As the lead developer, I was responsible for the entire system architecture and implementation:
+                </p>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Designed and implemented the GPS → ESP32 → Firebase data pipeline</div>
+                    <div class="pill">Developed backend flow and logic for user and driver interactions</div>
+                    <div class="pill">Integrated ESP32 microcontroller with GPS modules for location tracking</div>
+                    <div class="pill">Built Firebase integration for real-time data synchronization</div>
+                    <div class="pill">Designed user and driver interfaces and workflows</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Tech Stack</h2>
+                <div class="pill-list">
+                    <div class="pill">ESP32</div>
+                    <div class="pill">GPS</div>
+                    <div class="pill">Firebase</div>
+                    <div class="pill">Real-Time Database</div>
+                    <div class="pill">IoT</div>
+                    <div class="pill">C++</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">System Architecture</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Data Flow Pipeline</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        The system follows a clear data pipeline: GPS module captures location data → ESP32 processes and 
+                        transmits data → Firebase stores and syncs data → User applications receive real-time updates.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Hardware Integration</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Integrated GPS modules with ESP32 microcontrollers, handling serial communication, data parsing, 
+                        and wireless transmission. Ensured reliable data capture even in areas with varying GPS signal strength.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Backend Architecture</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Designed a scalable backend flow that handles multiple buses simultaneously, manages user and driver 
+                        roles, and ensures data consistency across all connected devices.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Process & Implementation</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">1. Hardware Setup</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Configured ESP32 microcontrollers with GPS modules, ensuring proper power management and reliable 
+                        connectivity for continuous operation.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">2. Firebase Integration</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Set up Firebase Realtime Database to handle location updates, user data, and driver information. 
+                        Implemented efficient data structures to minimize bandwidth and costs.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">3. Backend Logic Development</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Developed comprehensive backend logic for user and driver workflows, including authentication, 
+                        location sharing permissions, and real-time data synchronization.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">4. Testing & Optimization</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Tested the system under various conditions, optimizing data transmission frequency and ensuring 
+                        battery efficiency for mobile devices.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Engineering Decisions</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Why ESP32?</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Chose ESP32 for its built-in WiFi capabilities, low power consumption, and cost-effectiveness. 
+                        It provides the perfect balance between processing power and energy efficiency for IoT applications.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Why Firebase?</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Firebase Realtime Database offers instant synchronization across devices, eliminating the need for 
+                        complex backend infrastructure. Its scalability and real-time capabilities make it ideal for 
+                        tracking applications.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Data Transmission Strategy</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Implemented intelligent data transmission that balances update frequency with battery life and 
+                        data costs, ensuring optimal user experience.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Outcome & Impact</h2>
+                <p class="hero-copy">
+                    Successfully built a working prototype that demonstrates real-time bus tracking capabilities. 
+                    The system provides accurate location updates and helps users plan their commutes more effectively.
+                </p>
+                
+                <h3 style="font-size: 18px; font-weight: 600; margin: 24px 0 12px;">Key Achievements:</h3>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">End-to-end IoT system implementation</div>
+                    <div class="pill">Real-time data synchronization across devices</div>
+                    <div class="pill">Scalable backend architecture</div>
+                    <div class="pill">User-friendly interface design</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Learnings</h2>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Understanding of IoT hardware integration and embedded systems programming</div>
+                    <div class="pill">Experience with real-time database systems and data synchronization</div>
+                    <div class="pill">Importance of efficient data structures in IoT applications</div>
+                    <div class="pill">Balancing functionality with power consumption and cost constraints</div>
+                    <div class="pill">End-to-end system design thinking from hardware to user experience</div>
+                </div>
+            </section>
+
+            <section class="section fade-in" style="border-top: 1px solid var(--border); padding-top: 40px; margin-top: 40px; text-align: center;">
+                <a href="morphshield.html" class="cta-btn" style="margin-right: 12px; padding: 12px 24px;">← Previous: Morphshield</a>
+                <a href="factio.html" class="cta-btn" style="margin-right: 12px; padding: 12px 24px;">Next Project: Factio →</a>
+                <a href="index.html#projects" class="cta-btn" style="background: transparent; border: 1px solid var(--border); color: var(--text); padding: 12px 24px;">View All Projects</a>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

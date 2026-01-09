@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factio | Ashish Sarda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">AS</div>
+                <div class="sidebar-name">Ashish Sarda</div>
+                <div class="sidebar-role">Final-year B.tech(ECE) Student</div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="sidebar-link"><i class="fa-regular fa-user"></i> About</a>
+                <a href="projects.html" class="sidebar-link active"><i class="fa-solid fa-rocket"></i> Projects</a>
+                <a href="skills.html" class="sidebar-link"><i class="fa-regular fa-user"></i> Skills</a>
+                <a href="experience.html" class="sidebar-link"><i class="fa-regular fa-clock"></i> Experience</a>
+               <!--<a href="#blogs" class="sidebar-link"><i class="fa-solid fa-pen"></i> Blogs</a>-->
+                <a href="contact.html" class="sidebar-link"><i class="fa-regular fa-envelope"></i> Contact</a>
+            </nav>
+
+
+            <div class="sidebar-connect">
+                <div class="sidebar-connect-title">Connect</div>
+                <a class="connect-link" href="https://www.linkedin.com/in/ashish-sarda-5051982a3/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a class="connect-link" href="mailto:aashishsarda@rediffmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+                <a class="connect-link" href="tel:+919156620195"><i class="fa-solid fa-phone"></i> Phone</a>
+                <a class="connect-link" href="#contact"><i class="fa-solid fa-location-dot"></i> India</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Project Hero -->
+            <section class="hero">
+                <div class="hero-inner fade-in">
+                    <a href="index.html#projects" class="back-link" style="display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: 14px; margin-bottom: 20px;">
+                        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+                    </a>
+                    <h1 class="hero-heading">Factio</h1>
+                    <div class="hero-subheading">
+                        <span>Face Recognition Web Application</span>
+                    </div>
+
+                    <div class="project-meta" style="display: flex; gap: 32px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Role</span>
+                            <span style="font-size: 15px; font-weight: 500;">Full-Stack Developer</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Timeline</span>
+                            <span style="font-size: 15px; font-weight: 500;">Completed</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Category</span>
+                            <span style="font-size: 15px; font-weight: 500;">Web App, Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Content -->
+            <section class="section fade-in">
+                <h2 class="section-heading">Overview</h2>
+                <p class="hero-copy">
+                    Factio is a face recognition web application that enables users to identify and verify individuals 
+                    through facial recognition technology. Built using Python and OpenCV, the application integrates 
+                    with Firestore for secure data storage and provides a seamless user experience through an intuitive 
+                    web interface.
+                </p>
+                <p class="hero-copy">
+                    This project demonstrates practical application of computer vision techniques in a web environment, 
+                    combining backend image processing with frontend interactivity to create a functional face recognition system.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Problem Statement</h2>
+                <p class="hero-copy">
+                    Face recognition systems are typically complex and require specialized software. Factio makes this 
+                    technology accessible through a web application, allowing users to perform face recognition tasks 
+                    without installing specialized software or having deep technical knowledge.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">My Role</h2>
+                <p class="hero-copy">
+                    As the sole developer, I handled all aspects of the project:
+                </p>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Developed face recognition algorithms using Python and OpenCV</div>
+                    <div class="pill">Integrated Firestore database for storing face encodings and user data</div>
+                    <div class="pill">Built complex frontend interactions for image upload and recognition</div>
+                    <div class="pill">Implemented user interface for managing recognized faces</div>
+                    <div class="pill">Ensured secure data handling and privacy considerations</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Tech Stack</h2>
+                <div class="pill-list">
+                    <div class="pill">Python</div>
+                    <div class="pill">OpenCV</div>
+                    <div class="pill">Firestore</div>
+                    <div class="pill">Flask</div>
+                    <div class="pill">JavaScript</div>
+                    <div class="pill">HTML/CSS</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Technical Implementation</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Face Detection & Recognition</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Implemented face detection using OpenCV's Haar Cascades and DNN modules. Developed face encoding 
+                        algorithms to create unique signatures for each face, enabling accurate recognition across different 
+                        images and conditions.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Backend Processing</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Built a Flask-based backend that handles image processing, face encoding generation, and comparison 
+                        algorithms. Implemented efficient image handling to process uploads quickly while maintaining accuracy.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Database Integration</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Integrated Firestore to store face encodings and associated metadata. Designed data structures that 
+                        enable fast retrieval and comparison while maintaining data privacy and security.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Frontend Development</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Created an interactive web interface that allows users to upload images, view recognition results, 
+                        and manage their face database. Implemented complex interactions for real-time feedback and smooth 
+                        user experience.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Process & Development</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">1. Algorithm Development</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Researched and implemented face recognition algorithms, testing various approaches to find the best 
+                        balance between accuracy and performance.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">2. Backend Implementation</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Developed Flask API endpoints for image processing, face detection, encoding, and recognition. 
+                        Ensured efficient handling of image data and optimized processing times.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">3. Database Design</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Designed Firestore schema to efficiently store face encodings and metadata, enabling fast queries 
+                        and comparisons.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">4. Frontend Integration</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Built complex frontend interactions including drag-and-drop image uploads, real-time processing 
+                        feedback, and intuitive result displays.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">5. Testing & Refinement</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Tested the application with various image types, lighting conditions, and face angles to ensure 
+                        robust performance across different scenarios.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Engineering Decisions</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Why OpenCV?</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        OpenCV provides robust computer vision capabilities with excellent Python support. Its face detection 
+                        and recognition modules are well-documented and performant for web applications.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Why Firestore?</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Firestore offers real-time synchronization, scalable storage, and easy integration with web applications. 
+                        Its NoSQL structure is ideal for storing face encodings and metadata.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Architecture Choices</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Chose a Flask backend for its simplicity and Python integration, allowing seamless use of OpenCV. 
+                        The RESTful API architecture enables easy frontend integration and future scalability.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Outcome & Impact</h2>
+                <p class="hero-copy">
+                    Successfully developed a functional face recognition web application that demonstrates practical 
+                    computer vision implementation. The application provides accurate face recognition capabilities 
+                    through an accessible web interface.
+                </p>
+                
+                <h3 style="font-size: 18px; font-weight: 600; margin: 24px 0 12px;">Key Features:</h3>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Real-time face detection and recognition</div>
+                    <div class="pill">Secure data storage with Firestore</div>
+                    <div class="pill">Intuitive web interface</div>
+                    <div class="pill">Efficient image processing</div>
+                    <div class="pill">User-friendly face management system</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Learnings</h2>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Deep understanding of computer vision algorithms and face recognition techniques</div>
+                    <div class="pill">Experience with image processing and optimization for web applications</div>
+                    <div class="pill">Integration of complex backend processing with frontend interfaces</div>
+                    <div class="pill">Database design for storing and querying face recognition data</div>
+                    <div class="pill">Balancing accuracy with performance in real-time applications</div>
+                    <div class="pill">Privacy and security considerations in biometric applications</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Future Enhancements</h2>
+                <p class="hero-copy">
+                    Potential improvements include real-time video processing, improved accuracy through deep learning 
+                    models, multi-face detection, and enhanced security features for production deployment.
+                </p>
+            </section>
+
+            <section class="section fade-in" style="border-top: 1px solid var(--border); padding-top: 40px; margin-top: 40px; text-align: center;">
+                <a href="pravasmitra.html" class="cta-btn" style="margin-right: 12px; padding: 12px 24px;">← Previous: PravasMitra</a>
+                <a href="index.html#projects" class="cta-btn" style="background: transparent; border: 1px solid var(--border); color: var(--text); padding: 12px 24px;">View All Projects</a>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

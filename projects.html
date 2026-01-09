@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ashish Sarda </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  />
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">AS</div>
+                <div class="sidebar-name">Ashish Sarda</div>
+                <div class="sidebar-role">Final-year B.tech(ECE) Student</div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="sidebar-link"><i class="fa-regular fa-user"></i> About</a>
+                <a href="projects.html" class="sidebar-link active"><i class="fa-solid fa-rocket"></i> Projects</a>
+                <a href="skills.html" class="sidebar-link"><i class="fa-regular fa-user"></i> Skills</a>
+                <a href="experience.html" class="sidebar-link"><i class="fa-regular fa-clock"></i> Experience</a>
+                <a href="contact.html" class="sidebar-link"><i class="fa-regular fa-envelope"></i> Contact</a>
+            </nav>
+
+            <div class="sidebar-connect">
+                <div class="sidebar-connect-title">Connect</div>
+                <a class="connect-link" href="https://www.linkedin.com/in/ashish-sarda-5051982a3/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a class="connect-link" href="mailto:aashishsarda@rediffmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Projects Hero -->
+            <section class="hero">
+                <div class="hero-inner fade-in">
+                    <h1 class="hero-heading">Projects</h1>
+                    <div class="hero-subheading">
+                        <span>Deployment-ready prototypes & Technical Solutions</span>
+                    </div>
+                    <p class="hero-copy"><!--
+                        Hands-on projects demonstrating end-to-end development capabilities in AI/ML, web applications, 
+                        and full-stack systems. Built with scalability, performance, and real-world usability in mind.-->
+                        Each project includes problem statement, solution approach, metrics, and tech stack.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Projects Filter -->
+            <section class="section fade-in">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+                    <button class="filter-btn" data-filter="web">Web & Backend</button>
+                    <button class="filter-btn" data-filter="iot">AIoT</button>
+                </div>
+            </section>
+
+            <!-- Featured Projects -->
+            <section class="section fade-in">
+                <h2 class="section-heading">Featured Projects</h2>
+                <p class="section-subtitle">Complete applications from concept to deployment</p>
+                
+                <div class="projects-grid">
+                    
+                    <!-- Morphshield -->
+                    <div class="project-card ai-ml cv" data-category="ai-ml cv">
+                        <div class="project-thumbnail" style="background-image: url('/assets/images/banner-optimized.webp');">
+                            <div class="thumbnail-overlay">
+                                <div class="project-badge status-active">Completed</div>
+                                <div class="project-badge category-ai">AI/ML</div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Morphshield</h3>
+                            </div>
+                            <p class="project-meta">Deepfake Detection Platform</p>
+                            <p class="project-description">
+                                Deployed ML system detecting manipulated media with 94% accuracy. Built with 
+                                CNN, PyTorch, OpenCV, and deployed on PythonAnywhere with real-time API endpoints.
+                            </p>
+                            <div class="project-stats-mini">
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <span>94% Accuracy</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    <span>40% Faster Inference</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-server"></i>
+                                    <span>PythonAnywhere Deployed</span>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-primary">
+                                    <i class="fa-solid fa-external-link-alt"></i> Case Study
+                                </a>
+                                <a href="#" class="btn-secondary">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                            </div>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PravasMitra -->
+                    <div class="project-card iot web" data-category="iot web">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <div class="thumbnail-overlay">
+                                <div class="project-badge status-completed">Completed</div>
+                                <div class="project-badge category-iot">AIoT</div>
+                            </div>
+                            <div class="thumbnail-content">
+                                <i class="fa-solid fa-bus" style="font-size: 48px; color: white;"></i>
+                                <h3 class="thumbnail-title">PravasMitra</h3>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-header">
+                                <h3 class="project-title">PravasMitra</h3>
+                            </div>
+                            <p class="project-meta">Real-time Bus Tracking System</p>
+                            <p class="project-description">
+                                A self-initiated End-to-end AIoT solution with ESP32 hardware, Firebase cloud, and React frontend. 
+                                Provides &lt;5s latency for live tracking across 50+ devices.
+                            </p>
+                            <div class="project-stats-mini">
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span>&lt;5s Latency</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-satellite-dish"></i>
+                                    <span>ESP32 + GPS</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-mobile-alt"></i>
+                                    <span>Mobile Optimized</span>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-primary">
+                                    <i class="fa-solid fa-external-link-alt"></i> Case Study
+                                </a>
+                                <a href="#" class="btn-secondary">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                            </div>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">AIoT</span>
+                                <span class="tech-tag">ESP32</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Factio -->
+                    <div class="project-card web cv" data-category="web cv">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <div class="thumbnail-overlay">
+                                <div class="project-badge status-completed">Completed</div>
+                                <div class="project-badge category-web">Web App</div>
+                            </div>
+                            <div class="thumbnail-content">
+                                <i class="fa-solid fa-user-check" style="font-size: 48px; color: white;"></i>
+                                <h3 class="thumbnail-title">Factio</h3>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Factio</h3>
+                            </div>
+                            <p class="project-meta">Face Recognition Web Application</p>
+                            <p class="project-description">
+                                PythonAnywhere Deployed computer vision application with real-time face detection and recognition. 
+                                Features modern React UI and containerized deployment.
+                            </p>
+                            <div class="project-stats-mini">
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <span>Real-time Detection</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                    <span>React + Flask</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-docker"></i>
+                                    <span>Dockerized</span>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-primary">
+                                    <i class="fa-solid fa-external-link-alt"></i>Case Study
+                                </a>
+                                <a href="#" class="btn-secondary">
+                                    <i class="fa-brands fa-github"></i>GitHub
+                                </a>
+                            </div>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Assessment Recommendation Engine -->
+                    <div class="project-card ai-ml web" data-category="ai-ml web">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <div class="thumbnail-overlay">
+                                <div class="project-badge status-active">In Development</div>
+                                <div class="project-badge category-ai">ML System</div>
+                            </div>
+                            <div class="thumbnail-content">
+                                <i class="fa-solid fa-brain" style="font-size: 48px; color: white;"></i>
+                                <h3 class="thumbnail-title">Assessment AI</h3>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Assessment Recommendation Engine</h3>
+                            </div>
+                            <p class="project-meta">ML-Powered Learning Platform</p>
+                            <p class="project-description">
+                                Machine learning system for personalized assessment recommendations using PyTorch 
+                                and AWS SageMaker. Internship Project (Shamgar SOft Solutions)- worked under NDA, limited public code.
+                            </p>
+                            <div class="project-stats-mini">
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-rocket"></i>
+                                    <span>Production ML</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-cloud"></i>
+                                    <span>AWS SageMaker</span>
+                                </div>
+                                <div class="mini-stat">
+                                    <i class="fa-solid fa-code-branch"></i>
+                                    <span>Active Development</span>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-primary">
+                                    <i class="fa-solid fa-external-link-alt"></i> Case Study
+                                </a>
+                                <a href="#" class="btn-secondary">
+                                    <i class="fa-solid fa-code"></i>GitHub
+                                </a>
+                            </div>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">SageMaker</span>
+                                <span class="tech-tag">ML Ops</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+           
+            
+            <!-- Navigation -->
+            <section class="section fade-in" style="border-top: 1px solid #e2e8f0; padding-top: 40px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;">
+                    <a href="about.html" class="cta-btn" style="padding: 12px 24px;">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Previous: About
+                    </a>
+                    <a href="skills.html" class="cta-btn" style="padding: 12px 24px;">
+                        Next: Skills
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer fade-in">
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        © 2025 Ashish Sarda. Built with a laptop, coffee, and late nights.
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/ashish-sarda-5051982a3/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:aashishsarda@rediffmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919156620195">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <style>
+        
+        /* Footer */
+        .footer {
+            margin-top: 80px;
+            padding-top: 48px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 48px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-brand {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .footer-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #d6d6d6, #c1c1c1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #2a2a2a;
+            font-size: 18px;
+        }
+        
+        .footer-name {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .footer-tagline {
+            font-size: 14px;
+            color: var(--muted);
+        }
+        
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+        
+        .footer-column h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        
+        .footer-column a {
+            display: block;
+            color: var(--muted);
+            text-decoration: none;
+            margin-bottom: 8px;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+        
+        .footer-column a:hover {
+            color: var(--text);
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 24px;
+            /*border-top: 1px solid var(--border);*/
+        }
+        
+        .footer-copyright {
+            font-size: 14px;
+            color: var(--muted);
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .footer-social a {
+            color: var(--muted);
+            font-size: 18px;
+            transition: color 0.2s ease;
+        }
+        
+        .footer-social a:hover {
+            color: var(--text);
+        }
+        /* Projects Page Styles */
+        .project-stats {
+            display: flex;
+            gap: 32px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: #4f46e5;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 4px;
+        }
+        
+        .section-subtitle {
+            color: #64748b;
+            font-size: 16px;
+            margin-bottom: 32px;
+            max-width: 600px;
+        }
+        
+        /* Projects Filter */
+        .projects-filter {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 20px;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .filter-btn:hover {
+            background: #e2e8f0;
+        }
+        
+        .filter-btn.active {
+            background: #000000;
+            color: white;
+            border-color: #f6f6fc;
+        }
+        
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        
+        .project-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .project-thumbnail {
+            position: relative;
+            height: 220px;
+            border-radius: 16px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        
+        .thumbnail-overlay {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            right: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .thumbnail-content {
+            text-align: center;
+            color: white;
+            z-index: 1;
+        }
+        
+        .thumbnail-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 12px;
+            color: white;
+        }
+        
+        /* Project Badges */
+        .project-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .status-active {
+            background: #059669;
+        }
+        
+        .status-completed {
+            background: #4f46e5;
+        }
+        
+        .category-ai {
+            background: rgba(79, 70, 229, 0.9);
+        }
+        
+        .category-iot {
+            background: rgba(5, 150, 105, 0.9);
+        }
+        
+        .category-web {
+            background: rgba(220, 38, 38, 0.9);
+        }
+        
+        /* Project Card Content */
+        .project-card-content {
+            padding: 24px;
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .project-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+            margin: 0;
+        }
+        
+        
+        .project-meta {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+        
+        .project-description {
+            font-size: 15px;
+            color: #475569;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .project-stats-mini {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .mini-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 8px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        
+        .mini-stat i {
+            color: #4f46e5;
+            margin-bottom: 4px;
+        }
+        
+        .mini-stat span {
+            font-size: 12px;
+            color: #475569;
+            font-weight: 500;
+        }
+        
+        /* Project Actions */
+        .project-actions {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .btn-primary {
+            flex: 1;
+            padding: 10px 16px;
+            background: #1e293b;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary:hover {
+            background: #334155;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            flex: 1;
+            padding: 10px 16px;
+            background: #475569;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+        
+        .btn-secondary:hover {
+            background: #64748b;
+            transform: translateY(-2px);
+        }
+        
+        /* Tech Tags */
+        .project-tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .tech-tag {
+            padding: 4px 12px;
+            background: #f1f5f9;
+            color: #475569;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        /* Showcase Section */
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+        
+        .showcase-item {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+        
+        .showcase-icon {
+            width: 48px;
+            height: 48px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #4f46e5;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .showcase-text h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #1e293b;
+        }
+        
+        .showcase-text p {
+            font-size: 14px;
+            color: #64748b;
+            line-height: 1.5;
+        }
+        
+        /* Highlights Grid */
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        
+        .highlight-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .highlight-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        
+        .highlight-content h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: #1e293b;
+        }
+        
+        .highlight-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .highlight-content li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #475569;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .highlight-content li:before {
+            content: "•";
+            color: #4f46e5;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Technology Stack */
+        .tech-stack-container {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+        
+        .tech-category {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+        }
+        
+        .tech-category h3 {
+            font-size: 18px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        
+        .tech-tag-large {
+            padding: 8px 16px;
+            background: #f8fafc;
+            color: #475569;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+        
+        /* CTA Buttons */
+        .cta-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-btn.white {
+            background: white;
+            color: #4f46e5;
+        }
+        
+        .cta-btn.white:hover {
+            background: #f8fafc;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+        }
+        
+        .cta-btn.outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .cta-btn.outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .cta-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-stats {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+            
+            .project-stats-mini {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .showcase-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .highlights-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-actions {
+                flex-direction: column;
+            }
+            
+            .cta-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .cta-actions .cta-btn {
+                text-align: center;
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .project-thumbnail {
+                height: 160px;
+                padding: 16px;
+            }
+            
+            .thumbnail-title {
+                font-size: 20px;
+            }
+            
+            .project-card-content {
+                padding: 16px;
+            }
+        }
+    </style>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Project filtering functionality
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    const filterValue = button.getAttribute('data-filter');
+                    
+                    // Filter projects
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            const categories = card.getAttribute('data-category').split(' ');
+                            if (categories.includes(filterValue)) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+            
+            // Add animation to project cards
+            projectCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+            
+            // Add hover effect to project cards
+            projectCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transition = 'all 0.3s ease';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transition = 'all 0.3s ease';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

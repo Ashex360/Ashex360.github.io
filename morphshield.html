@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morphshield | Ashish Sarda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">AS</div>
+                <div class="sidebar-name">Ashish Sarda</div>
+                <div class="sidebar-role">Final-year B.tech(ECE) Student</div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="sidebar-link"><i class="fa-regular fa-user"></i> About</a>
+                <a href="projects.html" class="sidebar-link active"><i class="fa-solid fa-rocket"></i> Projects</a>
+                <a href="skills.html" class="sidebar-link"><i class="fa-regular fa-user"></i> Skills</a>
+                <a href="experience.html" class="sidebar-link"><i class="fa-regular fa-clock"></i> Experience</a>
+               <!--<a href="#blogs" class="sidebar-link"><i class="fa-solid fa-pen"></i> Blogs</a>-->
+                <a href="contact.html" class="sidebar-link"><i class="fa-regular fa-envelope"></i> Contact</a>
+            </nav>
+
+            <div class="sidebar-connect">
+                <div class="sidebar-connect-title">Connect</div>
+                <a class="connect-link" href="https://www.linkedin.com/in/ashish-sarda-5051982a3/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a class="connect-link" href="mailto:aashishsarda@rediffmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+                <a class="connect-link" href="tel:+919156620195"><i class="fa-solid fa-phone"></i> Phone</a>
+                <a class="connect-link" href="#contact"><i class="fa-solid fa-location-dot"></i> India</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Project Hero -->
+            <section class="hero">
+                <div class="hero-inner fade-in">
+                    <a href="projects.html" class="back-link" style="display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: 14px; margin-bottom: 20px;">
+                        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+                    </a>
+                    <h1 class="hero-heading">Morphshield</h1>
+                    <div class="hero-subheading">
+                        <span>AI-Powered Deepfake Detection Platform</span>
+                    </div>
+
+                    <div class="project-meta" style="display: flex; gap: 32px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Role</span>
+                            <span style="font-size: 15px; font-weight: 500;">ML Engineer & Developer</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Timeline</span>
+                            <span style="font-size: 15px; font-weight: 500;">Ongoing</span>
+                        </div>
+                        <div class="project-meta-item" style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Category</span>
+                            <span style="font-size: 15px; font-weight: 500;">AI/ML, Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Content -->
+            <section class="section fade-in">
+                <h2 class="section-heading">Overview</h2>
+                <p class="hero-copy">
+                    Morphshield is an AI-powered platform designed to detect morphed images and deepfakes with high accuracy. 
+                    As digital manipulation techniques become increasingly sophisticated, the need for reliable detection systems 
+                    has become critical for security, media integrity, and trust.
+                </p>
+                <p class="hero-copy">
+                    This project addresses the growing concern of image morphing and deepfake technology, which can be used 
+                    maliciously to create misleading content. Morphshield leverages advanced machine learning models to identify 
+                    these manipulations, providing a reliable tool for verification and security applications.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Problem Statement</h2>
+                <p class="hero-copy">
+                    With the rise of AI-generated content, detecting morphed images has become increasingly challenging. 
+                    Traditional image analysis methods fail to identify sophisticated morphing techniques that blend multiple 
+                    faces or manipulate facial features. This creates security vulnerabilities and trust issues in digital media.
+                </p>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">My Role</h2>
+                <p class="hero-copy">
+                    As the primary developer and ML engineer on this project, I was responsible for:
+                </p>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Training and fine-tuning deep learning models for morph detection</div>
+                    <div class="pill">Curating and preprocessing datasets for model training</div>
+                    <div class="pill">Implementing model architectures using PyTorch</div>
+                    <div class="pill">Optimizing model performance through hyperparameter tuning</div>
+                    <div class="pill">Continuously improving accuracy through better datasets and model refinement</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Tech Stack</h2>
+                <div class="pill-list">
+                    <div class="pill">PyTorch</div>
+                    <div class="pill">Python</div>
+                    <div class="pill">Computer Vision</div>
+                    <div class="pill">Deep Learning</div>
+                    <div class="pill">Image Processing</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Process & Approach</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">1. Data Collection & Preparation</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Collected diverse datasets of morphed and authentic images to train robust models. 
+                        Implemented data augmentation techniques to improve model generalization.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">2. Model Development</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Experimented with various deep learning architectures suitable for image classification 
+                        and anomaly detection. Focused on models that could identify subtle manipulation artifacts.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">3. Training & Optimization</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Trained models using PyTorch, implementing custom loss functions and optimization strategies. 
+                        Conducted extensive hyperparameter tuning to maximize detection accuracy.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">4. Continuous Improvement</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Currently working on improving accuracy through better datasets and advanced model tuning techniques. 
+                        Exploring ensemble methods and transfer learning approaches.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Engineering Decisions</h2>
+                
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Why PyTorch?</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Chose PyTorch for its flexibility in model development, excellent debugging capabilities, 
+                        and strong community support for computer vision tasks.
+                    </p>
+                </div>
+
+                <div style="margin: 20px 0;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin: 16px 0 8px;">Model Architecture Selection</h3>
+                    <p class="hero-copy" style="margin-left: 16px;">
+                        Selected architectures that balance accuracy with computational efficiency, ensuring the 
+                        platform can process images in real-time while maintaining high detection rates.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Outcome & Learnings</h2>
+                <p class="hero-copy">
+                    Successfully developed a working prototype that can detect morphed images with promising accuracy. 
+                    The project is ongoing, with continuous improvements being made to enhance detection capabilities.
+                </p>
+                
+                <h3 style="font-size: 18px; font-weight: 600; margin: 24px 0 12px;">Key Learnings:</h3>
+                <div class="pill-list" style="margin: 20px 0;">
+                    <div class="pill">Importance of high-quality, diverse datasets in ML model performance</div>
+                    <div class="pill">Challenges in detecting sophisticated image manipulations</div>
+                    <div class="pill">Value of iterative model refinement and hyperparameter tuning</div>
+                    <div class="pill">Understanding of deep learning architectures for computer vision tasks</div>
+                </div>
+            </section>
+
+            <section class="section fade-in">
+                <h2 class="section-heading">Future Work</h2>
+                <p class="hero-copy">
+                    Continuing to improve model accuracy through better datasets and advanced tuning techniques. 
+                    Exploring real-time detection capabilities and potential deployment strategies for production use.
+                </p>
+            </section>
+
+            <section class="section fade-in" style="border-top: 1px solid var(--border); padding-top: 40px; margin-top: 40px; text-align: center;">
+                <a href="pravasmitra.html" class="cta-btn" style="margin-right: 12px; padding: 12px 24px;">Next Project: PravasMitra →</a>
+                <a href="index.html#projects" class="cta-btn" style="background: transparent; border: 1px solid var(--border); color: var(--text); padding: 12px 24px;">View All Projects</a>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
