@@ -15,7 +15,7 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="sidebar-header">
-                <div class="avatar">AS</div>
+                <div class="avatar"><img src="assets/images/Pic.jpg" alt="Ashish Sarda"></div>
                 <div class="sidebar-name">Ashish Sarda</div>
                 <div class="sidebar-role">Final-year B.tech(ECE) Student</div>
             </div>
@@ -457,9 +457,6 @@
                         <a href="mailto:aashishsarda@rediffmail.com">
                             <i class="fa-solid fa-envelope"></i>
                         </a>
-                        <a href="tel:+919156620195">
-                            <i class="fa-solid fa-phone"></i>
-                        </a>
                     </div>
                 </div>
             </footer>
@@ -471,7 +468,21 @@
     <script src="script.js"></script>
     
     <style>
-        
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 12px;
+            border: 2px solid var(--border);
+            margin-left: -6px;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
         /* Footer */
         .footer {
             margin-top: 80px;
