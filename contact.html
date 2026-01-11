@@ -62,7 +62,7 @@
                     </a>
                     
                     <!-- Resume Download -->
-                    <a href="https://drive.google.com/file/d/13cRmEH-FfBYBeVRw-K4ES7Xhx8OA9Ss2/view?usp=sharing" class="action-card action-resume" id="downloadResume">
+                    <a href="https://drive.google.com/file/d/13cRmEH-FfBYBeVRw-K4ES7Xhx8OA9Ss2/view?usp=sharing" class="action-card action-resume" id="downloadResume" target="_blank" rel="noopener noreferrer">
                         <div class="action-icon-wrapper">
                             <i class="fa-solid fa-file-pdf"></i>
                         </div>
@@ -187,10 +187,6 @@
     </div>
 
     <script>
-        // Dynamic Resume Download
-        document.getElementById('downloadResume').addEventListener('click', function(e) {
-            e.preventDefault();
-            
             // Create download notification
             const notification = document.createElement('div');
             notification.className = 'download-notification';
